@@ -1,14 +1,12 @@
-package com.softtek.java.academy.exercises;
-
+package ExerciseToPractice;
 import java.util.Scanner;
 
-public class PinitoNavideño {
+public class PinoNavidad {
 	private static Scanner scanner;
 
 	public static void main(String[] args){
 		
-		scanner = new Scanner(System.in);
-		
+		scanner = new Scanner(System.in);	
 		
 		System.out.print("¿De que tamaño quieres el pino?(1-10):  ");
 		int tamañoPino = scanner.nextInt();
@@ -23,7 +21,5 @@ public class PinitoNavideño {
 			}
 			
 		} else { System.out.print("Debes ingresar el tamaño del pino del 1 al 10 "); }
-		
-		
 	}
 }

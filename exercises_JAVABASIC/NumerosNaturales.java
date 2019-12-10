@@ -1,6 +1,6 @@
-package com.softtek.java.academy.exercises;
+package ExerciseToPractice;
 
-public class Multiples {
+public class NumerosNaturales {
 	public static void main(String[] args) {
 		int numeroA = 3;
 		int numeroB = 5;
