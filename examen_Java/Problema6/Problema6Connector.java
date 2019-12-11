@@ -14,9 +14,8 @@ private static BasicDataSource ds;
 		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		ds.setUsername("root");
 		ds.setPassword("");
-		// ds.setUrl("jdbc:mysql://localhost:3306/omsdb?noAccessToProcedureBodies=true");
-		
-		ds.setUrl("jdbc:mysql://localhost:3306/mydb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC");
+		// ds.setUrl("jdbc:mysql://localhost:3306/mydb");
+		ds.setUrl("jdbc:mysql://localhost:3306/mydb");
 	}
 	
 	private Problema6Connector() {
