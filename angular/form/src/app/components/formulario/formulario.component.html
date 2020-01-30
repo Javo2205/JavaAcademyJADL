@@ -1,0 +1,16 @@
+<p>formulario works!</p>
+
+<!-- <h2>Calculadora</h2>
+<input type="text" id="firstNumber" #first>
+<input type="text" id="secondNumber" #second>
+<button type="button" class="btn btn-primary" (click)="calculate(first.value, second.value)">Sumar</button>
+<h4>64</h4>
+ -->
+
+<input  [(ngModel)]="valor1" type="number" placeholder="Valor 1">
+<input  [(ngModel)]="valor2" type="number" placeholder="Valor 2">
+<button class="btn btn-primary btn-sm" color="primary" (click)="sumar()">Sumar</button>
+<button class="btn btn-primary btn-sm" color="primary" (click)="resta()">Resta</button>
+<button class="btn btn-primary btn-sm" color="primary" (click)="division()">Division</button>
+<button class="btn btn-primary btn-sm" color="primary" (click)="multiplicacion()">Multiplicacion</button>
+<h3>{{resultado}}</h3>

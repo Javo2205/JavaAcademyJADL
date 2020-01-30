@@ -1,0 +1,24 @@
+<p>perros works!</p>
+
+<div class="formulario">
+  <h3>Captura de perro</h3>
+  <form #formPerro="ngForm" (ngSubmit)="onSubmit()">
+    <p>
+      <label>Raza</label>
+      <input type="text" #nombre="ngModel" name=raza [(ngModel)]="perro.raza" class="form-control"/>
+    </p>
+    <p>
+      <label>Tamaño</label>
+      <input type="text" #nombre="ngModel" name=tamano [(ngModel)]="perro.tamano" class="form-control"/>
+    </p>    
+    <p>
+      <label>Color</label>
+      <input type="text" #nombre="ngModel" name=color [(ngModel)]="perro.color" class="form-control"/>
+    </p>
+    <p>
+      <label>Origen</label>
+      <input type="text" #nombre="ngModel" name=origen [(ngModel)]="perro.origen" class="form-control"/>
+    </p>
+    <input type="submit" value="Guardar">
+  </form>
+</div>
